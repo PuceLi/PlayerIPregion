@@ -1,0 +1,9 @@
+{
+    "name": "${modName}",
+    "entry": "${modFile}",
+    "version": "${modVersion}",
+    "author": "PuceLi",
+    "description": "通过本地数据库（xdb）获取玩家 IP 地址的地理位置和 ISP",
+    "type": "native",
+    "platform": "${modPlatform}"
+}
