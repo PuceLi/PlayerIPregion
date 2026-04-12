@@ -20,11 +20,11 @@ std::string formatLocation(const std::string& raw) {
         parts.push_back(item);
     }
 
-    // 标准 xdb 格式：国家|区域|省份|城市|ISP
-    // 代码实现：省份|城市|ISP
+    // 标准 xdb 格式：Country|Province|City|ISP|iso-alpha2-code
+    // 代码实现：Country|Province|City|ISP
 
     std::string result;
-    for (size_t i : {2, 3, 4}) {
+    for (size_t i : {0, 1, 2, 3}) {
         if (i < parts.size()) {
             const std::string& segment = parts[i];
             if (segment != "0" && segment != "Reserved") {
