@@ -8,7 +8,7 @@
 
 ### 简介
 
-**PlayerIPregion** 利用 **[ip2region](https://github.com/lionsoul2014/ip2region)** 离线数据库，可在玩家加入时获取其 IP 信息（如省份、城市及运营商），并向全服玩家发送提示
+**PlayerIPregion** 利用 **[ip2region](https://github.com/lionsoul2014/ip2region)** 离线数据库，可在玩家加入时获取其 IP 信息（国家|省|城市|ISP），并向全服玩家发送提示
 
 该插件完全不需要主动联网，所有查询均在本地完成，确保了高效性与隐私性
 
