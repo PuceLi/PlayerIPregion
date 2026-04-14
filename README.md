@@ -1,5 +1,7 @@
 # PlayerIPregion (WIP)
 
+该分支适用于 LeviLamina 1.9.9
+
 一款 **LeviLamina** 插件旨为服务器提供玩家 IP 归属地和 ISP 查询与全服广播功能
 
 **该项目仍在开发中**
